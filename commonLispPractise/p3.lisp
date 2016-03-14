@@ -1,3 +1,5 @@
+;;;第三章的简易数据库用于存储cd信息
+
 (defvar *db* nil)
 
 (defun makeCd (title artist rating ripped)
